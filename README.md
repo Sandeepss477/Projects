@@ -1,2 +1,2 @@
 # Projects
-HTML Projects Sample
+HTML CSS Bootstrap Sample Projects
