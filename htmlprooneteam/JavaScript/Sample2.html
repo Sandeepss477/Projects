@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Age</title>
+</head>
+<body>
+    <h1>Voting Evaluation</h1>
+    Enter the Age:
+    <input type="text" id="age">
+    <input type="button" value="check" onclick="vote()">
+    <script>
+        function vote(){
+            let a=parseInt(document.getElementById("age").value)
+        
+        if(a>=20){
+        document.write("You are Elgible");
+    }
+    else{
+        document.write("You are not Elgible")
+    }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(226, 233, 233);
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+h1{
+    margin-left: 50px;
+    max-width: 600px
+    
+}
+h4{
+    margin-left: 50px;
+}
+div{
+    text-align:right
+    
+}
+#mm{
+background-color: #1e1eec;
+  border: blue;
+  color: white;
+  padding: 8px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+}
+.form-box{
+
+    width: 350px;
+    padding: 120px;
+    position:absolute;
+    top: 40px;
+    right: 50px;
+    border-radius: 6%;
+    background: white;
+    margin-left: 100px;
+    box-shadow: 0px 2px 10px 1px rgba(71, 71, 71, 0.52);
+}
+.form-box input{
+    width: 400px;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 14px;
+    box-sizing: border-box;
+    border: 1px solid #eeebeb;
+    border-radius: 7px;
+    outline:none
+
+}
+
+.form-box button{
+    width: 300px;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    border-radius: 5px;
+    border:none;
+    padding: 20px 0;
+    cursor: pointer;
+    background: #082ed8;
+}
+
+
+.form-box hr {
+    border: 1px solid #dadde1;
+    margin-bottom: 15px;
+}
+
+.div class-create btn{
+background-color:blue;
+  border: blue;
+  color: white;
+  padding: 2px px;
+  text-align: center;
+}
+
+.form-box{
+    font-size: 15px;
+    position:absolute;
+    top:60px;
+    right: 80px;
+}
+#ss{
+    background-color: #03aa4e;
+  border: rgb(61, 228, 102);
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+}

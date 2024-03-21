@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email</title>
+
+</head>
+<body>
+    <h3>Email Validation</h3>
+    <form action="Sample.html">
+    <input type="text"id="em" placeholder="enter your mail id">
+    <br><br>
+    <input type="password"id="pwd" placeholder="enter your password">
+    <br><br>
+    <input type="Submit" value="Login" onclick="validation()">
+    </form>
+    <script>
+            function validation(){
+                let a=document.getElementById("em").value
+                let b=document.getElementById("pa").value
+                if(a==""){
+                    alert("Enter mail id")
+                }
+                else if(!isEmail(a)){
+                    alert("Enter valid email id")
+                }
+                else if(b.length<6){
+                    alert("Password must be 6 characters")
+                }
+
+                function isEmail(a){
+                    return /^([a-zA-Z0-9-_\.]+)@([a-zA-Z0-9]+)\.([a-zA-Z]{2,10})(\.[a-zA-Z]{2,8})?$/ .test(a);
+                }
+            }
+        </script>
+    
+</body>
+</html>

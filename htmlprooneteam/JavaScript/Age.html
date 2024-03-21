@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age</title>
+</head>
+<body>
+    <h2> AGE Evaluation</h2>
+    Enter the Age:
+    <input type="text" id="age">
+    <input type="button" value="check" onclick="vote()">
+    <script>
+        function vote(){
+            let a=parseInt(document.getElementById("age").value)
+            if(a>=18){
+                c="Elgible"
+                document.getElementById("ss").innerHTML=c
+            }
+            else{
+                d="Not Eligible"
+                document.getElementById("ss").innerHTML=d
+            }
+        }
+    </script>
+</body>
+</html>
